@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,WACE,iBACF,CAEA,UACE,2BAA6B,CAC7B,OAAQ,CACR,QACF","file":"main.5bbd338c.chunk.css","sourcesContent":[".container {\n  position: relative;\n}\n\n.confetti {\n  position: absolute !important;\n  top: 50%;\n  left: 50%;\n}\n"]}
