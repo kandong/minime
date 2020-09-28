@@ -40,7 +40,7 @@ export default function GenderDisplay({ gender }) {
             ))}
           </p>
           <p
-            className={`gender-text ${
+            className={`gender-text chinese ${
               gender === "boy" ? "gender-text-boy" : "gender-text-girl"
             }`}
           >

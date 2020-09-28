@@ -28,11 +28,11 @@ export default function Display({ baby }) {
         <div className="text-container">
           <h1 className="question-text">
             What's cooking?
-            <br/>男孩还是女孩？
+            <br/><span className="chinese">男孩还是女孩？</span>
           </h1>
           <button className="reveal-btn" onClick={onButtonClick}>
             Reveal
-            <br/>揭秘
+            <br/><span className="chinese">揭秘</span>
           </button>
         </div>
       )}

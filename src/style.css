@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe");
 body {
   margin: 0;
   font-family: "Luckiest Guy", source-sans-pro, Helvetica, Arial, sans-serif;
   color: #0e1f26;
+}
+
+#root {
+  width: 100vw;
+}
+
+.chinese {
+  font-family: "ZCOOL KuaiLe", source-sans-pro, Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -103,11 +112,15 @@ body {
 }
 
 .gender-text-girl span {
-  text-shadow: 0 1px 0 #f2bbcf, 0 2px 0 #f2bbcf, 0 3px 0 #f2bbcf, 0 4px 0 #f2bbcf, 0 5px 0 #f2bbcf, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 0 #f2bbcf, 0 2px 0 #f2bbcf, 0 3px 0 #f2bbcf,
+    0 4px 0 #f2bbcf, 0 5px 0 #f2bbcf, 0 6px 0 transparent, 0 7px 0 transparent,
+    0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 .gender-text-boy span {
-  text-shadow: 0 1px 0 #b6d6f2, 0 2px 0 #b6d6f2, 0 3px 0 #b6d6f2, 0 4px 0 #b6d6f2, 0 5px 0 #b6d6f2, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 0 #b6d6f2, 0 2px 0 #b6d6f2, 0 3px 0 #b6d6f2,
+    0 4px 0 #b6d6f2, 0 5px 0 #b6d6f2, 0 6px 0 transparent, 0 7px 0 transparent,
+    0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 .gender-text span:nth-child(2) {
